@@ -1,1 +1,29 @@
 /* Write your CSS here */
+.each-list {
+  list-style-type: none;
+  width: 300px;
+  height: 400px;
+  background-color: #0f172a;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+}
+.result {
+  text-align: center;
+}
+.won {
+  color: #18ed66;
+  text-align: center;
+}
+.lost {
+  color: #e31a1a;
+}

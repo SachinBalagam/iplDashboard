@@ -30,3 +30,22 @@
 .DC {
   background-image: linear-gradient(to bottom, #4f5db0, #0f172a);
 }
+.card {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+.heading {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.recentMatchesList {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
